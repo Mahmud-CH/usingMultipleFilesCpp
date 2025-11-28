@@ -5,7 +5,7 @@ I changed the "${file}"
 to "${workspeceFolder}"
 
 what the "${workspaceFolder}" does is it 
-gives the directory of the file you're complining
+gives the directory of the file you're compiling
 up to the folder and then I added the files
 I wanted to compile together like this
 
@@ -14,12 +14,12 @@ I wanted to compile together like this
 
 and thats it
 
-you can make it so that it always compiles to the same .exe file
+you can make it so that it always compile to the same .exe file
 by changing the "${fileDirname}\\${fileBasenameNoExtension}.exe"
 
 to "${workspaceFolder}/insertName.exe"
 
-you cold not insert a name it would still work
+if you don't insert a name it would still work
 it would just compile like this ".exe"
 
 
@@ -36,7 +36,7 @@ giving it the directory to the file like this
 
 Note:
 I could not make it so that it works without
-me having to enter the files every time it didn't work
+me having to enter the files every time
 
 this is what i tried:
 "${workspaceFolder}\\*.cpp", "${workspaceFolder}\\**.cpp",and
@@ -47,3 +47,4 @@ D:desktop/code/cpp/multipleFilesexportingFiles/*.cpp
 
 I don't know how to make it stop loking for a *.cpp file and 
 to just compile all the files that have .cpp in them.
+
